@@ -28,7 +28,7 @@ function printDecreasingByRecursion(n) {
     if (n > 0) {
         console.log('decre',n); // Print on the way down
         printDecreasingByRecursion(n - 1);
-        console.log('incre',n)
+        console.log('incre',n) // Print while coming back
     }
 }
 
